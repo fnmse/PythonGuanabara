@@ -1,0 +1,5 @@
+n=input('Digite algo:' )
+print(' O tipo primitivo desse valor é', type(n))
+print('Só tem espacos',n.isspace())
+print(' Só tem maiúscula?','\033[31m',n.isupper(),'\033[m')
+print('Só tem minúscula ?', n.islower())
